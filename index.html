@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSE 110 Lab 2</title>
   </head>
+  <head>
+  <style>
+    .thisDiv {
+      border: 5px outset red;
+      background-color: blue;
+      text-align: center
+    }
+    </style>
+  </head>
   <body>
     <header>
       <div>LAB 2</div>
@@ -17,14 +26,12 @@
       </nav>
     </header>
     <main>
-      <h2 id="ingredients">Ingredients</h2>
+      <h2 id="weeks">Weeks into the Quarter</h2>
       <ol>
-        <li><input type="checkbox" /> 3 ½ teaspoons baking powder</li>
-        <li><input type="checkbox" /> 1 teaspoon salt</li>
-        <li><input type="checkbox" /> 1 tablespoon white sugar</li>
-        <li><input type="checkbox" /> 1 ¼ cups milk</li>
-        <li><input type="checkbox" /> 1 egg</li>
+        <li>Week 1</li>
+        <li>Week 2</li>
       </ol>
+      <h2 id="audiotext">Here is some audio</h2>
       <audio controls>
         <source src="htmlaudiotest.m4a" type="audio/mp3">
         <source src="htmlaudiotest.ogg" type="audio/ogg">
@@ -37,16 +44,19 @@
       </video>
       <h2 id="phototext">Here is a Photo</h2>
       <img src="htmltestphoto.jpg" alt="Cool Photo" width="250">
-      <h1>The details element</h1>
+      <h1>Summary and Details</h1>
       <details>
-        <summary>Epcot Center</summary>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        <summary>This is a summary</summary>
+        <p>You can see the summary text here.</p>
       </details>
       <h1>The section element</h1>
        <section>
-        <h2>WWF History</h2>
-        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+        <h2>CSE 110 is a great class/h2>
+          <p>This section is dedicated to talking about how <span style="color:green">great</span> of a class CSE 110 is and includes a span.</p>
        </section>
+       <div class="thisDiv">
+         <p>This is a div</p>
+        </div>
       <h2 id="steps">Steps</h2>
       <h4>Step 1</h4>
       <p>
