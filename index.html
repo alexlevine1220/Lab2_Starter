@@ -83,9 +83,19 @@
       <a href="https://www.github.com">Visit Github and publish your own site!</a>
       <h3>Text Area Example</h3>
       <form>
-      <p><label for="textareaexample">Text Area:</label></p>
-      <textarea id="textareaexample" name="textareaexample" rows="2" cols="10">This is a text area.</textarea>
+        <p><label for="textareaexample">Text Area:</label></p>
+        <textarea id="textareaexample" name="textareaexample" rows="2" cols="10">This is a text area.</textarea>
       <br>
+      <form>
+        <label for="fruit">Choose your favorite fruit:</label>
+        <input list="fruits" name="fruit" id="fruit">
+        <datalist id="fruits">
+          <option value="Apples">
+          <option value="Oranges">
+        </datalist>
+        <input type="submit">
+      </form>
+
       <input type="submit" value="Submit">
 </form>
     </main>
